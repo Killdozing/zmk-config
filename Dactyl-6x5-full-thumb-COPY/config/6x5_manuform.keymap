@@ -9,6 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include "../zmk-nodefree-config/helper.h"
+#include "combos.dtsi"  // requires layer aliases
+#include "mouse.dtsi"
+#include "extra_keys.h"
 
 / {
     behaviors {
